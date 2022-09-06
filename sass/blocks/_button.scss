@@ -1,0 +1,29 @@
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    padding: 10px 14px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    transition: 0.3s ease;
+
+    &--orange {
+        background-color: #EF7F04;
+
+        &:hover {
+            background-color: #de9a52;
+        }
+    }
+
+    &--blue {
+        background-color: #3B3A63;
+
+        &:hover {
+            background-color: #4e4d83;
+        }
+    }
+}
