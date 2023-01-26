@@ -1,2 +1,2 @@
 # Landing page "Окна Хаус"
-### Демо: https://sbykoderova.github.io/golden-egg/
+### Демо: https://sbykoderova.github.io/windows/
