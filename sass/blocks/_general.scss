@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../font/Roboto-Thin.woff2),
+        url(../../font/Roboto-Thin.woff);
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../font/Roboto-Light.woff2),
+        url(../../font/Roboto-Light.woff);
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../font/Roboto-Regular.woff2),
+        url(../../font/Roboto-Regular.woff);
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../../font/Roboto-Bold.woff2),
+        url(../../font/Roboto-Bold.woff);
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 55px;
+
+    @media screen and (max-width: 750px) {
+        padding: 0 30px;
+    }
+}
+
+main {
+    background-color: #F2F2F2;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}

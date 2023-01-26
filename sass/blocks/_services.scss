@@ -1,0 +1,88 @@
+.services {
+    padding: 68px 0 103px;
+
+    &__title {
+        margin-bottom: 48px;
+
+        @media screen and (max-width: 992px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        @media screen and (max-width: 992px) {
+            justify-content: center;
+            gap: 40px;
+        }
+    }
+
+    @media screen and (max-width: 992px) {
+        padding: 47px 0;
+    }
+}
+
+.card {
+    width: 49%;
+    padding: 48px 50px;
+    border-radius: 3px;
+    transition: 0.2s ease;
+
+    @media screen and (max-width: 440px) {
+        padding: 30px;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 32px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #2F2F51;
+    }
+
+    &__descr {
+        max-width: 305px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2F2F51;
+    }
+
+    &--1 {
+        background: url(./../img/services/img-1.jpg) center/cover no-repeat;
+    }
+
+    &--2 {
+        background: url(./../img/services/img-2.jpg) center/cover no-repeat;
+    }
+
+    &--3 {
+        background: url(./../img/services/img-3.jpg) center/cover no-repeat;
+    }
+
+    &--4 {
+        background: url(./../img/services/img-4.jpg) center/cover no-repeat;
+    }
+
+    &:hover {
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    }
+
+    @media screen and (max-width: 992px) {
+        width: 70%;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 750px) {
+        width: 100%;
+    }
+}

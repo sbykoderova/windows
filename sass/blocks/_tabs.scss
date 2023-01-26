@@ -1,0 +1,32 @@
+.tabs {
+    margin-bottom: 25px;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    &__item {
+        min-width: 130px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #2F2F51;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 25px;
+
+        &.active {
+            background-color: #EF7F04;
+            color: #fff;
+            border-radius: 3px;
+            font-weight: 700;
+        }
+    }
+}
